@@ -31,4 +31,9 @@ class PlayerController extends Controller
         return redirect(route('players.index'));
 //       dd($request); // This will dump the request object
     }
+
+    public function edit(Player $player)
+    {
+//        return view('players.edit', ['player' => $player]);
+    }
 }

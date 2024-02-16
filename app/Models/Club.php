@@ -17,7 +17,5 @@ class Club extends Model
 //        'founded',
 //        'logo'
 //    ];
-
     protected $guarded = ['id'];
-
 }

@@ -32,6 +32,7 @@
 {{--                </li>--}}
             </ul>
         </div>
+        <a href="{{route('players.edit', ['player' => $player])}}" class="text-white bg-gray-900 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">Edit player</a>
     </div>
     @endforeach
 {{--    <div class="max-w-sm m-6 border-2 p-4 rounded-2xl bg-white shadow-2xl shadow-gray-950/80">--}}

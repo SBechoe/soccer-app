@@ -15,7 +15,7 @@
           class="w-1/4  border-2 p-4 rounded-2xl bg-white shadow-2xl shadow-gray-950/80">
         @csrf
         @method('post')
-        <h1 class="w-full text-center text-4xl">Add player</h1>
+        <h1 class="w-full text-center text-4xl">Edit player</h1>
         <div class="relative z-0 w-full mb-5 group">
             <input type="first-name" name="first_name" id="first-name"
                    class="block py-2.5 px-0 w-full text-black text-sm bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
