@@ -15,11 +15,11 @@ return new class extends Migration
             $table->id();
             $table->string('first_name', 255);
             $table->string('last_name', 255);
-            $table->string('club_id', 255);
+//            $table->string('club_id', 255);
             $table->string('nationality', 255);
-            $table->date('date_of_birth');
-            $table->string('image', 255);
-//            $table->timestamps();
+//            $table->date('date_of_birth');
+//            $table->string('image', 255);
+            $table->timestamps();
         });
     }
 

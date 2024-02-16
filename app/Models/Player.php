@@ -9,14 +9,14 @@ class Player extends Model
 {
     use HasFactory;
 
-//    protected $fillable = [
-//        'first_name',
-//        'last_name',
+    protected $fillable = [
+        'first_name',
+        'last_name',
 //        'club_id',
-//        'nationality',
+        'nationality',
 //        'date_of_birth',
 //        'image'
-//    ];
-protected $guarded = ['id'];
+    ];
+//protected $guarded = ['id'];
 
 }
