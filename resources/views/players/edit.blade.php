@@ -1,18 +1,10 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-</head>
+@include('layouts.head')
 <body>
+@include('layouts.nav')
 <div class="w-full h-lvh flex justify-center items-center bg-red-950">
     <div class="edit-box w-1/4 border-2 p-4 rounded-2xl bg-white shadow-2xl shadow-gray-950/80">
-
         <form method="post" action="{{route('players.update', [$player->id])}}">
             @csrf
             @method('put')
