@@ -15,7 +15,7 @@ class Player extends Model
 //        'club_id',
         'nationality',
 //        'date_of_birth',
-//        'image'
+        'image'
     ];
 //protected $guarded = ['id'];
 

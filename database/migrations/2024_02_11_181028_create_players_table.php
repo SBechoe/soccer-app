@@ -18,7 +18,7 @@ return new class extends Migration
 //            $table->string('club_id', 255);
             $table->string('nationality', 255);
 //            $table->date('date_of_birth');
-//            $table->string('image', 255);
+            $table->string('image', 255);
             $table->timestamps();
         });
     }
